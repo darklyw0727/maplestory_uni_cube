@@ -1,0 +1,74 @@
+{
+  "target_potentials": [
+    [
+      "INT +13%",
+      "",
+      ""
+    ]
+  ],
+  "log_lv": "info",
+  "max_cubes": 0,
+  "window_title": "貓貓TMS",
+  "ocr_lang": "chinese_cht",
+  "ocr_match_threshold": 0.55,
+  "click_delay_sec": 0.35,
+  "post_action_wait_sec": 0.6,
+  "dry_run": false,
+  "start_hotkey": "ctrl+f1",
+  "stop_hotkey": "ctrl+f2",
+  "calibrate_confirm_hotkey": "ctrl+f3",
+  "calibrate_skip_hotkey": "ctrl+f4",
+  "calibrate_finish_hotkey": "ctrl+f5",
+  "regions": {
+    "ref_width": 1366,
+    "ref_height": 768,
+    "currency_label_box": [
+      755,
+      488,
+      815,
+      503
+    ],
+    "currency_expected_text": "結合方塊",
+    "reset_button": [
+      795,
+      703
+    ],
+    "reset_confirm_button": [
+      646,
+      463
+    ],
+    "potential_list_box": [
+      583,
+      326,
+      777,
+      391
+    ],
+    "potential_row_y_bounds": [
+      329,
+      346,
+      373,
+      394
+    ],
+    "potential_text_x_offset": 16,
+    "reselect_button": [
+      656,
+      628
+    ],
+    "reselect_confirm_button": [
+      652,
+      430
+    ],
+    "reset_selected_button": [
+      801,
+      621
+    ],
+    "reset_selected_confirm_button": [
+      651,
+      423
+    ],
+    "leave_button": [
+      698,
+      659
+    ]
+  }
+}
