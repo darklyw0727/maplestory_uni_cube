@@ -25,9 +25,9 @@ STEPS = [
     ("potential_text_x_offset", "text_offset",
      "step4: 任一列『文字』開頭處(跳過左邊等級圖示，移到潛能名稱第一個字的左緣)", None),
     ("reselect_button", "point", "step6: 小視窗的『重新選擇』按鈕(換選取哪一格，不改內容)，請定位按鈕的「右邊1/2處」", None),
-    ("reselect_confirm_button", "point", "step6_1: 按下後彈出的確認彈窗，『確認』按鈕", None),
+    ("reselect_confirm_button", "point", "step6_1: 按下後彈出的確認彈窗，『確認』按鈕，請定位按鈕的「右下角」", None),
     ("reset_selected_button", "point", "step7: 小視窗的『重新設定』按鈕(重骰被選取那格的內容)請定位按鈕的「左邊1/2處」", None),
-    ("reset_selected_confirm_button", "point", "step7_1: 按下後彈出的確認彈窗，『確認』按鈕", None),
+    ("reset_selected_confirm_button", "point", "step7_1: 按下後彈出的確認彈窗，『確認』按鈕，請定位按鈕的「左下角」", None),
     ("leave_button", "point", "小視窗的『離開』按鈕，請定位按鈕的「左邊1/2處」", None),
 ]
 
