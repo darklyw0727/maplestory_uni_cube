@@ -6,7 +6,7 @@ from . import ocr, regions
 from .config import Config
 from .window import GameWindow
 
-log = logging.getLogger("auto_shine_cube")
+log = logging.getLogger("auto_uni_cube")
 
 # 判斷「哪一格潛能目前被選取」時，被選取那格的底色飽和度必須比另外兩格明顯更高，
 # 差距至少要超過這個門檻才視為判斷可信；差距太小只印警告，仍以飽和度最高的那格

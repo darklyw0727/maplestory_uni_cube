@@ -74,15 +74,15 @@ py -3.13 -m venv .venv
 
 ```
 .venv\Scripts\pip install pyinstaller
-.venv\Scripts\pyinstaller AutoShineCube.spec
+.venv\Scripts\pyinstaller AutoUniCube.spec
 ```
 
-打包結果在 `dist/AutoShineCube/`，裡面的 `AutoShineCube.exe` 加上整個 `_internal/`
+打包結果在 `dist/AutoUniCube/`，裡面的 `AutoUniCube.exe` 加上整個 `_internal/`
 資料夾都要一起帶走(不能只複製 exe 單獨那個檔案)，`config.json` 要放在跟 exe 同一層
 目錄。整包大約 700MB+(主要是 `paddlepaddle` 本身很大)，第一次啟動若本機還沒有
 PaddleOCR 模型快取(`~/.paddlex/official_models/`)一樣需要網路下載。
 
-`AutoShineCube.spec` 已經包含打包 `paddleocr`/`paddlex`/`paddle`/`keyboard` 這幾個
+`AutoUniCube.spec` 已經包含打包 `paddleocr`/`paddlex`/`paddle`/`keyboard` 這幾個
 套件需要的 `--collect-all` 設定，改完程式碼後重新打包只要重跑上面那行指令即可，
 不需要重新產生 `.spec`。
 
