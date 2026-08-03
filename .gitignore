@@ -3,3 +3,4 @@ logs/
 *pyc
 build/
 dist/
+paddlex_models/
